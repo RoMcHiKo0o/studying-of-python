@@ -100,3 +100,4 @@ for i in range(n):
 			dj += 1
 			j-=dj
 prmatr(c)
+# ебать он здоровый!!!

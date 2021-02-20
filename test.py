@@ -99,5 +99,4 @@ for i in range(n):
 		else:
 			dj += 1
 			j-=dj
-prmatr(c)
-# ебать он здоровый!!!
+prmatr(c)# она не работает, рабочая версия в файле spiral.py

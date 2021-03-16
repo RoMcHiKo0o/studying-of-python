@@ -3,12 +3,12 @@ import sys
 
 def gcd(a: int, b: int) -> int:
     if (a**2 + b**2) > 0:
-        a, b = max(abs(a), abs(b)), min(abs(a), abs(b))
+        # a, b = max(abs(a), abs(b)), min(abs(a), abs(b))
         # тут я сделал a > b и сделал их положительными,
         # потому что прога не проходила тест на отрицательные числа
         # нод(a, b) = нод(-a, b)
         if a != b:
-            while b > 0:
+            while b != 0:
                 a, b = b, a % b
                 # a становится b, b становится остатком
         else:
